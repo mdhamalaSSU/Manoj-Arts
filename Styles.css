@@ -1,0 +1,313 @@
+@charset "UTF-8";
+html {
+	background: url("images/230.jpg")center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1 {
+	font-family: lobster;
+	font-style: normal;
+	font-weight: 399;
+	font-size: 1.9em;
+	text-shadow: 3px 3px #FFFFFF;
+	text-align: center;
+}
+a .bottom {
+	text-decoration-color: #FBFAFA;
+	font-weight: bold;
+	text-align: center;
+}
+h2 {
+	font-family: lobster;
+	font-style: normal;
+	font-weight: 399;
+	font-size: 1.9em;
+	text-decoration-color: #0DA7F3;
+	text-align: center;
+}
+h3 {
+	font-family: lobster;
+	font-style: normal;
+	font-weight: 399;
+	font-size: 1.9em;
+	text-decoration-color: #0DA7F3;
+	text-align: center;
+}
+.orderh3{
+	text-decoration-color: #FBFAFA;
+}
+main .products content-wrapper .h1{
+	text-decoration-color:#3B0607;
+}
+main .products content-wrapper .p{
+	text-decoration-color:#3B0607;
+}
+
+body {
+	background: image("images/230.jpg");
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-weight: 225;
+	background-size: cover;
+}
+footer {
+	background-color: #000000;
+	color: #FFFFFF;
+	font-weight: 600;
+	font-size: 1.7em;
+	text-align: center;
+	margin-left: 4%;
+	margin-top: 4%;
+	margin-right: 4%;
+	margin-bottom: 4%;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	clear: both;
+}
+
+nav {
+	background-color: #000000;
+	color: #F8F8F8;
+	height: 40px;
+	text-align: center;
+	margin-top: 5%;
+	margin-right: 5%;
+	margin-bottom: 5%;
+	margin-left: 5%;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	font-weight: 800;
+	font-variant: normal;
+}
+.sectionLeft {
+	width: 30%;
+	margin-left: 5%;
+	margin-right: 2.5%;
+	float: left;
+}
+.sectionRight {
+	width: 60%;
+	margin-left: 2.5%;
+	margin-right: 15%;
+	float: right;
+	background-color: #F2F2F2;
+	border-top: 10px solid #000000;
+	border-bottom: 10px solid #000000;
+	border-left: 10px solid #000000;
+	border-right: 10px solid #000000;
+	margin-bottom: 20%;
+	padding: 40px;
+	padding-bottom: 20px;
+	font-size: 20px;
+	
+}
+header {
+	text-align: center;
+	clear: both;
+}
+a   {
+	color: #FF0004;
+	text-decoration: none;
+}
+.navHome {
+	margin-left: 2%;
+	margin-right: 2%;
+	padding-top: 70px;
+	background-image: url(images/navHome.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 0% 20px;
+	-webkit-transition: all .5s ease 0s;
+	-o-transition: all .5s ease 0s;
+	transition: all .5s ease 0s;
+}
+.navAbout {
+	margin-left: 2%;
+	margin-right: 2%;
+	padding-top: 70px;
+	background-image: url(images/navAbout.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 0% 20px;
+	-webkit-transition: all .5s ease 0s;
+	-o-transition: all .5s ease 0s;
+	transition: all .5s ease 0s;
+}
+.navPort {
+	margin-left: 2%;
+	margin-right: 2%;
+	padding-top: 70px;
+	background-image: url(images/navPort.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 0% 20px;
+	-webkit-transition: all .5s ease 0s;
+	-o-transition: all .5s ease 0s;
+	transition: all .5s ease 0s;
+}
+.navSignUp {
+	margin-left: 2%;
+	margin-right: 2%;
+	padding-top: 70px;
+	background-image: url("images/signup.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 0% 20px;
+	-webkit-transition: all .5s ease 0s;
+	-o-transition: all .5s ease 0s;
+	transition: all .5s ease 0s;
+}
+.navLogin{
+	margin-left: 2%;
+	margin-right: 2%;
+	padding-top: 70px;
+	background-image:url("images/navAbout.png");
+	background-size:50px;
+	background-repeat:no-repeat;
+	background-position: 0% 15px;
+	-webkit-transition: all .5s ease 0s;
+	-o-transition: all .5s ease 0s;
+	transition: all .5s ease 0s;
+	
+}
+.navContact {
+	margin-left: 2%;
+	margin-right: 2%;
+	padding-top: 70px;
+	background-image: url(images/navContact.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 0% 20px;
+	-webkit-transition: all .5s ease 0s;
+	-o-transition: all .5s ease 0s;
+	transition: all .5s ease 0s;
+}
+.navHome:hover {
+	background-position: 0px 0px;
+	color: #FFFFFF;
+}
+.navAbout:hover {
+	background-position: 0px 0px;
+	color: #FFFFFF;
+}
+.navPort:hover {
+	background-position: 0px 0px;
+	color: #FFFFFF;
+}
+.navSignUp:hover {
+	background-position: 2px 2px;
+	color: #FFFFFF;
+}
+.navContact:hover {
+	background-position: 0px 0px;
+	color: #FFFFFF;
+}
+.navLogin:hover {
+	background-position: 2px 2px;
+	color: #FFFFFF;
+}
+
+@media screen and (max-width:750px){
+h1 {
+	font-family: lobster;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5em;
+	text-shadow: 2px 3px #FFFFFF;
+	text-align: center;
+}
+h2 {
+	font-family: lobster;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.2em;
+}
+}
+
+@media screen and (max-width:600px){
+nav {
+	background-color: #000000;
+	color: #F8F8F8;
+	text-align: center;
+	margin-top: 6%;
+	margin-right: 5%;
+	margin-bottom: -1%;
+	margin-left: 5%;
+	padding-left: 10px;
+	padding-top: 3px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	font-weight: 700;
+	font-variant: normal;
+	font-family: source-sans-pro;
+	font-style: normal;
+}
+.sectionLeft {
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	float: left;
+}
+.sectionRight {
+	width: 92%;
+	margin-left: 5%;
+	margin-right: 5%;
+	float: right;
+	background-color: #F2F2F2;
+	border-top: 10px solid #000000;
+	border-bottom: 10px solid #000000;
+	margin-bottom: 5%;
+	padding-left: 10px;
+}
+.bottom {
+	text-decoration-color: #FBFAFA;
+	font-weight: bold;
+	text-align: center;
+}
+.tablecaption {
+	color: #FFFFFF;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-style: italic;
+	font-weight: 600;
+}
+.centre {
+	text-align: center;
+	color: #00FF58;
+}
+.left {
+	color: #FFF4F5;
+	text-align: left;
+}
+.heading {
+	color:#3B0607;
+}
+.top {
+	color: #FBFBFB;
+	font-weight: bold;
+	text-align: center;
+}
+
+.leftborder {
+	border-left-width: 9px;
+	margin-left: 5%;
+}
+	.wrapper{
+		align-content: center;
+		width: auto;
+	}
+.form-group{
+		align-content: center;
+		width: auto;
+	}
+	.form-control{
+		align-content: center;
+	}
+.control-label{
+	
+}
